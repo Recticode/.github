@@ -7,7 +7,7 @@ Practice real-world coding by fixing bugs in actual codebases, not solving toy p
 Recticode is a cli-based platform where you:
 - pull a coding challenge (a real mini codebase)
 - identify and fix a bug or implement a feature
-- run tests to verify your solution
+- run your own tests to verify your solution
 - submit your fix
 
 Instead of writing isolated functions, you work with realistic systems.
@@ -28,7 +28,7 @@ Recticode is built to train **that skill**.
 1. install the cli
 2. fetch a challenge
 3. work locally in your editor
-4. run tests
+4. run your own tests
 5. submit your solution
 
 ## Install
@@ -51,9 +51,6 @@ recticode start <challenge-name>
 
 # work on the code locally...
 
-# run tests
-recticode check
-
 # submit your fix
 recticode submit
 ```
@@ -63,7 +60,6 @@ recticode submit
 Each challenge includes:
 - a small codebase (multiple files)
 - a realistic bug or task
-- test cases to validate behaviour
 
 Examples:
 - duplicate payments being triggered
