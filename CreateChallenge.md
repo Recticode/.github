@@ -101,7 +101,7 @@ Do NOT:
 
 ---
 
-## summary
+## Summary
 - You provide broken code.
 - We defines correctness.
 - Tests are always private and owned by Recticode (so don't write them, or commit them to your repo).
